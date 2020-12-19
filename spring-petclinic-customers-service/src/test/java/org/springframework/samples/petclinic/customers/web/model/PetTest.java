@@ -20,7 +20,7 @@ public class PetTest {
         //Arrange
         Pet pet = new Pet();
         Owner owner = new Owner();
-        owner.setFirstName("Adam");
+        owner.setFirstName("Call");
         //Act
         pet.setOwner(owner);
         //Assert
