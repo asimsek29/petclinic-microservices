@@ -1,7 +1,8 @@
 AWSTemplateFormatVersion: 2010-09-09
 Description: >
   This cloudformation template prepares development environment for petclinic microservices app
-  User needs to select appropiate key name when launching the template.
+  User needs to select appropiate key name when launching the template. This file should be run AWS cloud 
+  formation.
 
 Parameters:
   KeyPairName:
