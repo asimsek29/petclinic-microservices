@@ -20,3 +20,4 @@ echo 'Deploying App on Swarm'
 . ./ansible/scripts/deploy_app_on_qa_environment.sh
 echo 'Deleting all local images'
 docker image prune -af
+###
