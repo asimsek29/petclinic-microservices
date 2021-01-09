@@ -117,7 +117,7 @@ services:
     ports:
      - 7979:7979
 
-  ## Grafana / Prometheus
+  ## Grafana / Prometheus / Testing monitor
 
   grafana-server:
     image: "${IMAGE_TAG_GRAFANA_SERVICE}"
